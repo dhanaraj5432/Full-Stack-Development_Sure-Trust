@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image link</title>
+</head>
+<body>
+    <h1 align="center" style="color: rgb(19, 15, 240);">Click the image to open the website</h1>
+    <a href="https://www.eso.org/public/images/eso1907a/" target="_blank">
+        <img src="https://cdn.eso.org/images/screen/eso1907a.jpg" 
+        style="width: 700px; height: 550px; margin-left: 290px;"
+        alt="Image of Black hole"
+        title="First image of Black Hole">
+    </a>
+</body>
+</html>
