@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <div>
+        <form action="result.html" method="GET">
+            <div>
+                <h3>Sign-up form</h3>
+            </div>
+
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+            </div>
+
+            <div>
+                <label for="phone">Phone no.</label>
+                <input type="tel" id="phone" name="phone">
+            </div>
+
+            <div>
+                <label for="email">Email id</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div>
+                <label for="gender">Gender</label><br>
+                <input type="radio" id="gender" name="gender" value="Male">Male
+                <input type="radio" id="gender" name="gender" value="Female">Female
+                <input type="radio" id="gender" name="gender" value="Prefer not to say">Prefer not to say
+            </div>
+        </form>
+    </div>
+</body>
+</html>
