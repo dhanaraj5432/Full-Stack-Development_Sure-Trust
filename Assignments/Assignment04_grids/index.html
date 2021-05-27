@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grids 1</title>
+    <style>
+        .grid-container{
+            display: grid;
+            grid-template-columns: 70% 30%;
+           
+           /* grid-column-gap: 1em;
+            grid-row-gap: 1em;  */
+            grid-gap: 1em;
+        }
+        .grid-container > div{
+            background: rgb(235, 206, 238);
+            padding: 1em;
+        }
+        .grid-container > div:nth-child(odd){
+            background: rgb(231, 174, 227) ;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="grid-container">
+        <div>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, animi. Eveniet modi hic impedit unde esse repudiandae in quibusdam sapiente, rem non iste quod deleniti consequatur nesciunt veniam natus. Distinctio!
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis iure cum sint minima illo odit consectetur accusamus vitae eos accusantium dignissimos non exercitationem adipisci, consequuntur culpa, labore eius nulla ratione.
+        </div>
+        <div>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, animi. Eveniet modi hic impedit unde esse repudiandae in quibusdam sapiente, rem non iste quod deleniti consequatur nesciunt veniam natus. Distinctio!
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis iure cum sint minima illo odit consectetur accusamus vitae eos accusantium dignissimos non exercitationem adipisci, consequuntur culpa, labore eius nulla ratione.
+        </div>
+        
+    </div>
+    
+</body>
+</html>
